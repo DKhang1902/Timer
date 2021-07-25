@@ -27,5 +27,6 @@ root.title("Timer")
 tk.Button(root, text="Setting", width=6, command=click).grid(row=0,column=0,sticky="W")
 count_down()
 
+print("New change")
 
 tk.mainloop()
